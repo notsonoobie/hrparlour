@@ -5,7 +5,7 @@ import '../Styles/Clients.css'
 class Clients extends Component {
     render() {
         return (
-            <div className="Clients">
+            <div id='clients' className="Clients">
                 <h1 className="Clients-header">OUR CLIENTS</h1>
                 <div className='Clients-list'>
                     <ul className='Clients-list-ul'>

@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import { Link, animateScroll as scroll } from "react-scroll";
 import '../Styles/Navbar.css'
 
 class Navbar extends Component {
@@ -10,10 +11,10 @@ class Navbar extends Component {
                 </div>
                 <div className="navbar-list">
                     <ul>
-                        <li><a href='/#root'>Home</a></li>
-                        <li><a href='/#about'>About</a></li>
-                        <li><a href='/#clients'>Clients</a></li>
-                        <li><a href='/#contact'>Contact</a></li>
+                        <li><Link to='home' spy={true} hashSpy={true} smooth={true} offset={-70} duration={600}>Home</Link></li>
+                        <li><Link to='about' spy={true} hashSpy={true} smooth={true} offset={-70} duration={600}>About</Link></li>
+                        <li><Link to='clients' spy={true} hashSpy={true} smooth={true} offset={-70} duration={600}>Clients</Link></li>
+                        <li><Link to='contact' spy={true} hashSpy={true} smooth={true} offset={-70} duration={600}>Contact</Link></li>
                     </ul>
                 </div>
             </div>

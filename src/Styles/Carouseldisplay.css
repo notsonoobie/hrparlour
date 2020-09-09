@@ -17,10 +17,47 @@
     margin-top: 20vh;
     font-size: 1rem;
 }
+@media screen and (max-width:1242px) {
+    .Carouseldisplay .carousel-header{
+        font-size: 2rem;
+        word-spacing: 0.2rem;
+        letter-spacing: 0.2rem;
+    }
+    .Carouseldisplay .carousel-info{
+        word-spacing: 0.1rem;
+        letter-spacing: 2px;
+        margin-left: -20%;
+        margin-right: -20%;
+        margin-top: 25vh;
+        font-size: .9rem;
+    }
+}
 .Carouseldisplay .hrparlour{
     font-size: 1.4rem;
     background: -webkit-linear-gradient(#eee, #333);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+@media screen and (max-width:1004px) {
+    .Carouseldisplay .carousel-info{
+        word-spacing: 2px;
+        letter-spacing: unset;
+        margin-top: 25vh;
+        font-size: 14px;
+    }
+}
+@media screen and (max-width:600px) {
+    .Carouseldisplay .carousel-header{
+        font-size: 20px;
+    }
+    .Carouseldisplay .carousel-info{
+        font-size: 13px;
+    }
+}
+@media screen and (max-width:500px) {
+    .Carouseldisplay .carousel-header{
+        margin-left: -20%;
+        margin-right: -20%;
+    }
 }

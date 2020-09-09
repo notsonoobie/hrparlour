@@ -39,6 +39,11 @@
     align-items: center;
     margin: 3rem;
 }
+@media screen and (max-width:1234px) {
+    .Card .actualCard{
+        margin: 2rem;
+    }
+}
 .actualCard .actualCard-card{
     margin: 1rem;
     border: 2px solid rgba(0, 0, 0,0.4);
@@ -51,6 +56,12 @@
     justify-content: center;
     align-items: center;
     text-align: center;
+}
+@media screen and (max-width:1234px) {
+    .Card .actualCard-card{
+        width: 70%;
+        padding: 2rem;
+    }
 }
 .actualCard .actualCard-card:hover{
     transition: all .3s;
@@ -78,4 +89,36 @@
 .actualCard .actualCard-card .card-desc{
     text-transform: capitalize;
     line-height: 2rem;
+}
+@media screen and (max-width:1234px) {
+    .Card .actualCard-card .card-title{
+        font-size: 1.5rem;
+        word-spacing: 5px;
+    }
+    .actualCard .actualCard-card .card-desc{
+        font-size: 1rem;    
+        line-height: 1.7rem;
+    }
+}
+@media screen and (max-width:970px) {
+    .Card .Card-desc-header{
+        margin-bottom: 1.5rem;
+        font-size: 2rem;
+    }
+    .Card .Card-desc-info{
+        font-size: 0.8rem;
+        margin-bottom: 1.1rem;
+    }
+    .Card .actualCard-card{
+        width: 90%;
+        padding: 1rem;
+    }
+    .actualCard .actualCard-card .card-desc{
+        font-size: .8rem;    
+    }
+}
+@media screen and (max-width:620px) {
+    .Card .Card-desc{
+        margin: 0 30px;
+    }
 }

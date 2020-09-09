@@ -5,7 +5,7 @@ import "../Styles/Carouseldisplay.css"
 class Carouseldisplay extends Component {
     render() {
         return (
-            <div className="Carouseldisplay">
+            <div id='home' className="Carouseldisplay">
                 <div className='container-fluid' >  
                     <Carousel indicators={false}>
                         <Carousel.Item style={{'height':"85vh"}}>
